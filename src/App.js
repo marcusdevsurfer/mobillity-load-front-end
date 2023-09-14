@@ -1,9 +1,15 @@
 import { ListOfUnits } from "./components/ListOfUnits";
+import { SearchBar } from "./components/SearchBar";
+
+
 
 
 function App() {
   return (
-    <ListOfUnits/>
+    <>
+      <SearchBar />
+      <ListOfUnits />
+    </>
   );
 }
 

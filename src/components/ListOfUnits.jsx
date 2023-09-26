@@ -37,6 +37,20 @@ export const ListOfUnits = () => {
                             <p>Telefono</p>
                             <p>Email</p>
                         </div>
+
+                        <div className='bg-secondary'>
+                            <img src="" alt="Foto perfil" />
+                            <h4>Transporte</h4>
+                            <p>Telefono</p>
+                            <p>Email</p>
+                        </div>
+
+                        <div className='bg-secondary'>
+                            <img src="" alt="Foto perfil" />
+                            <h4>Transporte</h4>
+                            <p>Telefono</p>
+                            <p>Email</p>
+                        </div>
                     </div>
                 </div>
             </div>

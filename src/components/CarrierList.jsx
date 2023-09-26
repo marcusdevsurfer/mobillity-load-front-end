@@ -69,7 +69,7 @@ export const CarrierList = () => {
 
 
     const handleSearchResults = () => {
-        const found = carrierListData.filter((carrier) => carrier.name.toLowerCase() === inputSearch.toLowerCase())
+        const found = carrierListData.filter((carrier) => carrier.name.toLowerCase() == inputSearch.toLowerCase())
         if (found.length > 0) {
             setIsThereResults(true)
             setCarriersFound(found)
